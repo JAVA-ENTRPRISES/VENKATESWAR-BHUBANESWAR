@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Admissions | Venkateswar School</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-gray-50">
+    <div id="header"></div>
+
+    <!-- HERO WITH IMAGE -->
+    <section
+      class="relative h-[60vh] flex items-center justify-center text-white"
+    >
+      <img
+        src="images/admission.jpg"
+        class="absolute w-full h-full object-cover"
+      />
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-blue-700/70"
+      ></div>
+
+      <div class="relative text-center z-10">
+        <h1 class="text-5xl font-bold mb-4">Admissions Open</h1>
+        <p class="text-lg">2026–27 Academic Session</p>
+      </div>
+    </section>
+
+    <!-- QUICK INFO STRIP -->
+    <section class="bg-white py-6 shadow">
+      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 text-center gap-6">
+        <div>
+          <h3 class="font-bold text-purple-700 text-xl">📅 Session</h3>
+          <p class="text-sm text-gray-600">2026–27</p>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-purple-700 text-xl">🏫 Classes</h3>
+          <p class="text-sm text-gray-600">Nursery to X</p>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-purple-700 text-xl">📍 Location</h3>
+          <p class="text-sm text-gray-600">Jatni, Khurda</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS (CARD STYLE) -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-12">Admission Process</h2>
+
+        <div class="grid md:grid-cols-4 gap-8">
+          <div
+            class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <div class="text-purple-600 text-3xl mb-3">1</div>
+            <h3 class="font-semibold">Apply</h3>
+            <p class="text-sm text-gray-600">Submit enquiry form</p>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <div class="text-purple-600 text-3xl mb-3">2</div>
+            <h3 class="font-semibold">Visit</h3>
+            <p class="text-sm text-gray-600">Campus interaction</p>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <div class="text-purple-600 text-3xl mb-3">3</div>
+            <h3 class="font-semibold">Assessment</h3>
+            <p class="text-sm text-gray-600">Basic evaluation</p>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
+            <div class="text-purple-600 text-3xl mb-3">4</div>
+            <h3 class="font-semibold">Confirm</h3>
+            <p class="text-sm text-gray-600">Admission confirmation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN GRID -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-10">
+        <!-- LEFT INFO -->
+        <div class="lg:col-span-1 space-y-6">
+          <div class="bg-gray-50 p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-3">Classes Offered</h3>
+            <ul class="text-sm text-gray-600 space-y-2">
+              <li>Nursery – KG</li>
+              <li>Class I – V</li>
+              <li>Class VI – VIII</li>
+              <li>Class IX – X</li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-3">Documents Required</h3>
+            <ul class="text-sm text-gray-600 space-y-2">
+              <li>Birth Certificate</li>
+              <li>Transfer Certificate</li>
+              <li>Report Card</li>
+              <li>Aadhaar Card</li>
+              <li>Passport Photos</li>
+            </ul>
+          </div>
+
+          <div class="bg-purple-600 text-white p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Need Help?</h3>
+            <p class="text-sm mb-3">Contact our admission team</p>
+            <p class="text-sm">📞 +91 9876543210</p>
+            <p class="text-sm">✉ school@email.com</p>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="lg:col-span-2 bg-white p-10 rounded-xl shadow-lg border">
+          <h2 class="text-2xl font-bold mb-6">Admission Enquiry</h2>
+
+          <form class="grid md:grid-cols-2 gap-4">
+            <input
+              type="text"
+              placeholder="Parent Name"
+              class="p-3 border rounded outline-none col-span-1"
+            />
+
+            <input
+              type="text"
+              placeholder="Student Name"
+              class="p-3 border rounded outline-none col-span-1"
+            />
+
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              class="p-3 border rounded outline-none col-span-1"
+            />
+
+            <input
+              type="email"
+              placeholder="Email"
+              class="p-3 border rounded outline-none col-span-1"
+            />
+
+            <select class="p-3 border rounded outline-none col-span-2">
+              <option>Select Class</option>
+              <option>Nursery</option>
+              <option>KG</option>
+              <option>Class I</option>
+            </select>
+
+            <textarea
+              placeholder="Message"
+              class="p-3 border rounded outline-none col-span-2"
+            ></textarea>
+
+            <button
+              class="col-span-2 bg-purple-600 text-white py-3 rounded hover:bg-purple-700 transition"
+            >
+              Submit Application
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US (ICON STYLE) -->
+    <section class="py-20 bg-gray-100 text-center">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12">Why Choose Our School</h2>
+
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <i class="fa fa-school text-purple-600 text-3xl mb-3"></i>
+            <p class="font-semibold">Modern Campus</p>
+          </div>
+
+          <div>
+            <i class="fa fa-user-graduate text-purple-600 text-3xl mb-3"></i>
+            <p class="font-semibold">Qualified Teachers</p>
+          </div>
+
+          <div>
+            <i class="fa fa-book text-purple-600 text-3xl mb-3"></i>
+            <p class="font-semibold">CBSE Curriculum</p>
+          </div>
+
+          <div>
+            <i class="fa fa-futbol text-purple-600 text-3xl mb-3"></i>
+            <p class="font-semibold">Sports & Activities</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section
+      class="py-20 bg-gradient-to-r from-purple-700 to-blue-600 text-white text-center"
+    >
+      <h2 class="text-3xl font-bold mb-4">Take the First Step Today</h2>
+      <p class="mb-6">Limited seats available</p>
+
+      <a
+        href="#"
+        class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold"
+      >
+        Apply Now
+      </a>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
